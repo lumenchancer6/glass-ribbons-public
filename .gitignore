@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+*.local
+.env
+.env.*
+
+# MediaPipe runtime and models are fetched by `npm install` (scripts/copy-assets.mjs)
+public/wasm/
+public/models/*.task
+public/models/*.tflite
+
+# Python launcher
+__pycache__/
+*.pyc
