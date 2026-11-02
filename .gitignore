@@ -10,6 +10,7 @@ Thumbs.db
 public/wasm/
 public/models/*.task
 public/models/*.tflite
+public/models/SOURCE.txt
 
 # Python launcher
 __pycache__/
